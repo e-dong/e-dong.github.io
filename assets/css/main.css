@@ -11,10 +11,10 @@
    	background-image:
             	url('https://dl6rt3mwcjzxg.cloudfront.net/assets/snow/snow-medium-0b8a5e0732315b68e1f54185be7a1ad9.png'),
             	url('https://dl6rt3mwcjzxg.cloudfront.net/assets/snow/snow-small-1ecd03b1fce08c24e064ff8c0a72c519.png'),
-            	url('https://dl6rt3mwcjzxg.cloudfront.net/assets/snow/snow-small-1ecd03b1fce08c24e064ff8c0a72c519.png');
+            	url('https://dl6rt3mwcjzxg.cloudfront.net/assets/snow/snow-small-1ecd03b1fce08c24e064ff8c0a72c519.png') !important;
    			width: 100%;
    	z-index:1;
-   	animation: snow 20s linear infinite;
+   	animation: snow 20s linear infinite !important;
 	}
 	@keyframes snow {
     	from {background-position: 0px 0px, 0px 0px, 0px 0px;}
@@ -3643,11 +3643,23 @@
 /* Main */
 
 	#main > header {
-		padding: 12em 0 10em 0 ;
+		padding: 10em 0 11em 0 ;
 		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/techbanner.jpg");
 		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/techbanner.jpg");
 		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/techbanner.jpg");
 		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/techbanner.jpg");
+		background-attachment: fixed;
+		background-position: center center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		text-align: center;
+	}
+	#guitar {
+		padding: 10em 0 11em 0 !important;
+		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg") !important;
+		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg") !important;
+		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg") !important;
+		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg") !important;
 		background-attachment: fixed;
 		background-position: center center;
 		background-repeat: no-repeat;
