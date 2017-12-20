@@ -62,6 +62,10 @@
 		-webkit-text-size-adjust: none;
 	}
 
+	.content p {
+		padding-left: 5%;
+		text-align: left;
+	}
 /* Box Model */
 
 	*, *:before, *:after {
