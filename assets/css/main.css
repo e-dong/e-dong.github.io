@@ -62,10 +62,11 @@
 		-webkit-text-size-adjust: none;
 	}
 
-	.content p, h3 {
-		padding-left: 5%;
+	.content p, h3, h4, li {
+		
 		text-align: left;
 	}
+
 	.more-info {
 		color:grey;
 		border-style: none;
