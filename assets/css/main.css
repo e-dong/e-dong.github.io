@@ -62,10 +62,20 @@
 		-webkit-text-size-adjust: none;
 	}
 
-	.content p {
+	.content p, h3 {
 		padding-left: 5%;
 		text-align: left;
 	}
+	.more-info {
+		color:grey;
+		border-style: none;
+
+	}
+	.more-info:hover{
+		color: black;
+	}
+
+
 /* Box Model */
 
 	*, *:before, *:after {
