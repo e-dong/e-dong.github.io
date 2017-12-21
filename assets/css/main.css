@@ -63,7 +63,7 @@
 	}
 
 	.content p, h3, h4, li {
-		
+
 		text-align: left;
 	}
 
@@ -3229,6 +3229,9 @@
 					outline: 0;
 					text-decoration: none;
 					text-transform: uppercase;
+				}
+				#menu ul > li > a:hover {
+					color: red;
 				}
 
 					@media screen and (max-width: 736px) {
