@@ -3190,7 +3190,7 @@
 		-ms-transition: -ms-transform 0.5s ease;
 		transition: transform 0.5s ease;
 		-webkit-overflow-scrolling: touch;
-		/*background-color: #000000;*/
+		background-color: #2e3842;
 		color: #ffffff;
 		height: 100%;
 		max-width: 80%;
@@ -3209,7 +3209,9 @@
 		}
 
 			#menu ul > li {
-				border-top: solid 1px rgba(0, 0, 0, 0.125);
+				/*border-top: solid 1px rgba(0, 0, 0, 0);*/
+				border-top: solid 1px;
+				border-color: #FFF;
 				margin: 0.5em 0 0 0;
 				padding: 0.5em 0 0 0;
 			}
@@ -3289,7 +3291,7 @@
 		-webkit-transition: background-color 0.2s ease;
 		-ms-transition: background-color 0.2s ease;
 		transition: background-color 0.2s ease;
-		background: #2e3842;
+		background: #000;
 		height: 3em;
 		left: 0;
 		line-height: 3em;
