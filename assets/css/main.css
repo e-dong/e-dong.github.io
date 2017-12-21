@@ -3190,7 +3190,7 @@
 		-ms-transition: -ms-transform 0.5s ease;
 		transition: transform 0.5s ease;
 		-webkit-overflow-scrolling: touch;
-		/*background: #2e3842;*/
+		/*background-color: #000000;*/
 		color: #ffffff;
 		height: 100%;
 		max-width: 80%;
@@ -3231,7 +3231,7 @@
 					text-transform: uppercase;
 				}
 				#menu ul > li > a:hover {
-					color: red;
+					font-size: 105%;
 				}
 
 					@media screen and (max-width: 736px) {
@@ -3256,6 +3256,7 @@
 			vertical-align: middle;
 			width: 7em;
 		}
+
 
 		@media screen and (max-width: 736px) {
 
