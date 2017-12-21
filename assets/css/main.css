@@ -3232,6 +3232,7 @@
 				}
 				#menu ul > li > a:hover {
 					font-size: 105%;
+					color:red;
 				}
 
 					@media screen and (max-width: 736px) {
