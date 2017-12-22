@@ -1441,11 +1441,25 @@
 
 	body, input, select, textarea {
 		color: #fff;
-		font-family: "Open Sans", Helvetica, sans-serif;
+		font-family: 'Comfortaa', Helvetica, sans-serif;
 		font-size: 15pt;
 		font-weight: 400;
 		letter-spacing: 0.075em;
 		line-height: 1.65em;
+	}
+	h2, h3, h4 {
+		font-family: 'Open Sans';
+	}
+	h2 {
+		padding-bottom: 1% !important;
+	}
+	#tagline {
+		font-family: 'Poiret One';
+		font-size: 40pt !important;
+		font-weight: 400 !important;
+	}
+	p {
+		font-size: 14pt !important;
 	}
 
 		@media screen and (max-width: 1680px) {
@@ -3233,7 +3247,7 @@
 					text-transform: uppercase;
 				}
 				#menu ul > li > a:hover {
-					font-size: 105%;
+					font-size: 101% !important;
 					color:red;
 				}
 
