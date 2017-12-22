@@ -22,7 +22,7 @@
 	}
 }
 .logo {
-	text-align: center;
+	text-align: center !important;
 	margin: 2% 0 2% 0;
 }
 .list {
@@ -35,6 +35,23 @@
 #home {
 	padding-right: 5% !important;
 	margin-right: 5% !important;
+}
+.rotate {
+  /*-webkit-transform:rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);*/
+	text-align: center;
+	width: 275px;
+	height: 275px;
+	border-radius: 50%;
+	margin-bottom: 10%;
+}
+#name {
+	margin-left: 20%;
+	margin-top: 15%;
+	margin-bottom: 5%;
 }
 /* Reset */
 
@@ -77,8 +94,7 @@
 		-webkit-text-size-adjust: none;
 	}
 
-	.content p, h3, h4, li {
-
+	.content p, h3, h4, li, {
 		text-align: left;
 	}
 
