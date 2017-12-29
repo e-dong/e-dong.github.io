@@ -53,7 +53,9 @@
 							<div class="inner">
 								<h3>SignalR Chatroom</h3>
 								<p>
-									Implemented a simple chatroom web application, utilizing AngularJS and ASP.NET SignalR. I learned these technologies as the result of my internship in the summer of 2017.
+									Implemented a simple chatroom web application, utilizing AngularJS and ASP.NET SignalR. When a user logs in, the username will be appended to the "online" list and
+									a message will be appended to the chat box, indicating that the user has joined. SignalR allows all connected users to see these changes to the DOM in real-time.
+									I learned these technologies as the result of my internship in the summer of 2017.
 								</p>
 								<p>
 									You can see the website <a target="_blank" href="http://signalrchatroom-demo.azurewebsites.net/">here</a>.
@@ -65,6 +67,7 @@
 								<h3>Battleship Game</h3>
 								<p>
 									Implemented a "Pass and Play" battleship game using JavaScript. This was done for my "Programming Languages For Web Applications" class.
+									I learned about using regular expressions to parse strings, event listeners, and manipulation of the Document Object Model.
 								</p>
 								<p>
 									You can see the source code <a target="_blank" href="https://github.com/e-dong/BattleshipJS">here</a>.
@@ -79,7 +82,17 @@
 								</p>
 								<hr/>
 								<h3>Catering application</h3>
-								<p>Implemented a Catering App using Flask and SQLAlchemy. This was done for my "Programming Languages For Web Applications" class.</p>
+								<p>
+									Implemented a Catering App using Flask and SQLAlchemy. I learned about database relationships (one to one, one to many, and many to many) and setting up appropiate flask models.
+									This was done for my "Programming Languages For Web Applications" class.
+								</p>
+								<p>
+									For this project, the following relationips are used:
+								</p>
+								<ul>
+									<li>Staff & Event: <strong>Many to Many relationship</strong>. Staff can signup for events and each event can have up to 3 staff members.</li>
+									<li>Customer & Event: <strong>One to Many relationship</strong>. Each Customer can request more than 1 event.</li>
+								</ul>
 								<p>
 									You can see the source code <a target="_blank" href="https://github.com/e-dong/CaterApp">here</a>.
 								</p>
@@ -87,7 +100,8 @@
 								<h3>Graphic Library</h3>
 								<p>
 									Implemented a double buffered graphics library, written in C for linqux(QEMU used). This program can draw pixels and lines
-									on the command line. This was done for my Operating System's class
+									on the command line. For this project I learned about memory-mapped IO. Specifically, the framebuffer was mapped to memory. This allowed me to random access the buffer via addresses.
+									I also learned that double buffering can allow graphics to render smoothly. This was done for my Operating System's class
 								</p>
 								<p>
 									You can see the source code <a target="_blank" href="https://github.com/e-dong/Graphic_Library">here</a>.
@@ -95,7 +109,12 @@
 								<hr/>
 								<h3>Unix Shell</h3>
 								<p>
-									Implemented a Unix shell using C.
+									Implemented a Unix shell using C. It uses strtok to parse user input and supports the following methods:
+									<ul>
+										<li>Change Directory (cd)</li>
+										<li>Exit (exit)</li>
+										<li>Any unix command (e.g ls, vim, nano, more, cat). Input redirection is also supported(">, >>, <").
+									</ul>
 								</p>
 								<p>
 									You can see the source code <a target="_blank" href="https://github.com/e-dong/MyShell">here</a>.
@@ -103,7 +122,7 @@
 								<hr/>
 								<h3>Maze Game</h3>
 								<p>
-									Implemented a simple maze game written in MIPS Assembly.
+									Implemented a simple maze game for MARS, written in MIPS Assembly.
 								</p>
 								<p>
 									You can see the source code <a target="_blank" href="https://github.com/e-dong/Maze-MIPS-Assembly-Game">here</a>.
