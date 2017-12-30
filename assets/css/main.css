@@ -44,8 +44,9 @@
 
 }
 .title-bar {
+	color: gray;
 	animation-name: glow;
-	animation-duration: 5s;
+	animation-duration: 4s;
 	animation-direction: alternate;
 	animation-iteration-count: infinite;
 }
