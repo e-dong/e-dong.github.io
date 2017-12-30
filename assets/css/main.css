@@ -32,6 +32,9 @@
 	margin-top: 1%;
 	text-align:center;
 }
+.nav-top{
+	padding-right: 10% !important;
+}
 #home {
 	padding-right: 5% !important;
 	margin-right: 5% !important;
@@ -44,11 +47,11 @@
 
 }
 .title-bar {
-	color: gray;
-	animation-name: glow;
+	color: white !important;
+	/*animation-name: glow;
 	animation-duration: 4s;
 	animation-direction: alternate;
-	animation-iteration-count: infinite;
+	animation-iteration-count: infinite;*/
 }
 /*#tagline {
 	animation-name: glow;
@@ -82,6 +85,10 @@
 @keyframes glow {
 	from {color: gray;}
 	to {color: white;}
+}
+@keyframes glow-red {
+	from {color: white;}
+	to {color: red;}
 }
 a {
 	outline: none !important;
@@ -3379,6 +3386,7 @@ a {
 		-ms-transition: background-color 0.2s ease;
 		transition: background-color 0.2s ease;
 		background: #000;
+		background-color: #0e1d63;
 		height: 3em;
 		left: 0;
 		line-height: 3em;
@@ -3437,12 +3445,14 @@ a {
 
 					#header nav > ul > li > a {
 						border: 0;
-						color: #fff;
+						color: red;
 						display: block;
 						font-size: 0.8em;
 						letter-spacing: 0.225em;
 						padding: 0 1.5em;
 						text-transform: uppercase;
+						font-weight: bold;
+
 					}
 
 						#header nav > ul > li > a.menuToggle {
