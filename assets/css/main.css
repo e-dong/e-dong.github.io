@@ -14,7 +14,7 @@
             	url('https://dl6rt3mwcjzxg.cloudfront.net/assets/snow/snow-small-1ecd03b1fce08c24e064ff8c0a72c519.png') !important;
    			width: 100%;
    	z-index:1;
-   	animation: snow 20s linear infinite !important;
+   	animation: snow 20s alternate infinite !important;
 	}
 	@keyframes snow {
     	from {background-position: 0px 0px, 0px 0px, 0px 0px;}
@@ -42,6 +42,45 @@
 	border-radius: 50%;
 	border-style: solid;
 
+}
+.title-bar {
+	animation-name: glow;
+	animation-duration: 5s;
+	animation-direction: alternate;
+	animation-iteration-count: infinite;
+}
+/*#tagline {
+	animation-name: glow;
+	animation-duration: 2.5s;
+	animation-direction: alternate;
+	animation-iteration-count: infinite;
+}*/
+#code {
+	animation-name: glow;
+	animation-duration: 2.5s;
+	animation-direction: alternate;
+	animation-iteration-count: infinite;
+}
+#play-div {
+	width: 195px;
+}
+#play{
+	animation-name: glow;
+	animation-delay: .5s;
+	animation-duration: 2.5s;
+	animation-direction: alternate;
+	animation-iteration-count: infinite;
+}
+#dream {
+	animation-name: glow;
+	animation-delay: 1s;
+	animation-duration: 2.5s;
+	animation-direction: alternate;
+	animation-iteration-count: infinite;
+}
+@keyframes glow {
+	from {color: gray;}
+	to {color: white;}
 }
 /* Reset */
 
@@ -1475,10 +1514,16 @@
 	h2 {
 		padding-bottom: 1% !important;
 	}
-	#tagline {
+	.tagline {
 		font-family: 'Poiret One';
 		font-size: 40pt !important;
 		font-weight: 400 !important;
+		width: 200px;
+		color: grey;
+	}
+	#web-title {
+		margin-left: 25%;
+
 	}
 	p {
 		font-size: 14pt !important;
