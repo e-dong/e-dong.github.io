@@ -63,7 +63,7 @@
 	animation-iteration-count: infinite;
 }
 #play-div {
-	width: 195px;
+	width: 180px;
 }
 #play{
 	animation-name: glow;
@@ -1522,11 +1522,13 @@ a {
 		font-family: 'Poiret One';
 		font-size: 40pt !important;
 		font-weight: 400 !important;
-		width: 200px;
+		width: 180px;
 		color: grey;
 	}
 	#web-title {
-		margin-left: 25%;
+		margin-right: 10% !important;
+		text-align: center;
+		display: inline-block;
 
 	}
 	p {
