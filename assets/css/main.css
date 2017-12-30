@@ -3328,7 +3328,7 @@ a {
 				}
 				#menu ul > li > a:hover {
 					font-size: 101% !important;
-					color:red;
+					text-decoration: overline underline;
 				}
 
 					@media screen and (max-width: 736px) {
