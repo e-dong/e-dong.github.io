@@ -46,6 +46,9 @@
 	border-style: solid;
 
 }
+p > a {
+	color: red;
+}
 .title-bar {
 	color: white !important;
 	/*animation-name: glow;
@@ -3285,6 +3288,7 @@ a {
 		transition: transform 0.5s ease;
 		-webkit-overflow-scrolling: touch;
 		background-color: #2e3842;
+		opacity: 0.7;
 		color: #ffffff;
 		height: 100%;
 		max-width: 80%;
@@ -3387,6 +3391,7 @@ a {
 		transition: background-color 0.2s ease;
 		background: #000;
 		background-color: #0e1d63;
+		opacity: 0.7;
 		height: 3em;
 		left: 0;
 		line-height: 3em;
@@ -3847,7 +3852,8 @@ a {
 
 	#footer {
 		padding: 6em 0 4em 0 ;
-		background-color: #1d242a;
+		background-color: #0e1d63!important;
+		opacity: 0.7;
 		text-align: center;
 	}
 
