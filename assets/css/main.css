@@ -50,7 +50,7 @@ p > a {
 	color: red;
 }
 .title-bar {
-	color: white !important;
+	color: gray;
 	animation-name: glow;
 	animation-duration: 4s;
 	animation-direction: alternate;
