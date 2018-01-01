@@ -89,10 +89,7 @@ p > a {
 	from {color: gray;}
 	to {color: white;}
 }
-@keyframes glow-red {
-	from {color: white;}
-	to {color: red;}
-}
+
 a {
 	outline: none !important;
 }
@@ -3450,7 +3447,7 @@ a {
 
 					#header nav > ul > li > a {
 						border: 0;
-						color: red;
+						color: inherit;
 						display: block;
 						font-size: 0.8em;
 						letter-spacing: 0.225em;
