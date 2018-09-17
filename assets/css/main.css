@@ -179,6 +179,22 @@ a {
 		margin-top: 150px;
 		margin-bottom: 150px;
 	}
+	#contact-header > h2 {
+		color: white;
+		border-color: white;
+	}
+	.last {
+		margin-bottom: 300px;
+	}
+	.bold-white {
+		color: white;	
+	}
+	h4 {
+		color: white !important;
+	}
+	#top-scroll {
+		color: white;
+	}
 	.tech-background {
 		padding: 10em 0 11em 0 ;
 		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/techbanner.jpg");
